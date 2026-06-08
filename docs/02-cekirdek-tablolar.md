@@ -2,7 +2,7 @@
 
 Logo veri modelinin en sık kullanılan tabloları. Adlar `LG_{XXX}_{YY}_` veya dönemsiz
 `LG_{XXX}_` önekiyle gelir (bkz. [01-veri-modeli.md](01-veri-modeli.md)). Tablo bazında
-kolon sözlüğü için [`tablo-aciklamalari/`](../tablo-aciklamalari/) klasörüne bakın.
+kolon sözlüğü için [`tablolar/`](../tablolar/) klasörüne bakın.
 
 ## Cari (müşteri/tedarikçi)
 | Tablo | Açıklama | Önemli kolonlar |

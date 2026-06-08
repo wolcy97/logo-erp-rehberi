@@ -22,13 +22,21 @@ tutar/KDV kolonlarını ve sık kullanılan SQL kalıplarını sade bir dille a�
 | [06](docs/06-sorgu-kaliplari.md) | **Sorgu kalıpları** — net satış, on-hand, keşif sorguları |
 | [07](docs/07-sik-hatalar.md) | **Sık hatalar** — checklist ve tuzaklar |
 
-### 🗂️ Tablo açıklamaları (`tablo-aciklamalari/`)
-Tablo bazında genel kolon sözlüğü: [CLCARD](tablo-aciklamalari/CLCARD.md) ·
-[ITEMS](tablo-aciklamalari/ITEMS.md) · [STLINE](tablo-aciklamalari/STLINE.md) ·
-[INVOICE](tablo-aciklamalari/INVOICE.md) · [STFICHE](tablo-aciklamalari/STFICHE.md) ·
-[CLFLINE](tablo-aciklamalari/CLFLINE.md) · [PAYTRANS](tablo-aciklamalari/PAYTRANS.md) ·
-[ORFLINE](tablo-aciklamalari/ORFLINE.md) · [CSTRANS](tablo-aciklamalari/CSTRANS.md) ·
-[L_CAPIWHOUSE](tablo-aciklamalari/L_CAPIWHOUSE.md)
+### 🗂️ Tablolar (`tablolar/`) — **863 standart tablo**
+Modül bazlı tam indeks: [tablolar/README.md](tablolar/README.md) · ortak kolonlar: [_kolon-sozlugu.md](tablolar/_kolon-sozlugu.md).
+Sık kullanılanlar: [STLINE](tablolar/STLINE.md) · [INVOICE](tablolar/INVOICE.md) ·
+[CLCARD](tablolar/CLCARD.md) · [CLFLINE](tablolar/CLFLINE.md) · [ITEMS](tablolar/ITEMS.md) ·
+[PAYTRANS](tablolar/PAYTRANS.md) · [STINVTOT](tablolar/STINVTOT.md).
+
+### 👁️ View'ler (`viewler/`) — **51 standart `LV_` görünüm**
+Logo'nun hesaplı görünümleri: [viewler/README.md](viewler/README.md). Örn:
+[STINVTOT](viewler/STINVTOT.md) · [SALES_ITEMS](viewler/SALES_ITEMS.md) · [CLEKSTRE](viewler/CLEKSTRE.md).
+
+### ⚙️ Prosedürler (`procedurler/`) — **364 standart prosedür**
+Kategori (LG_/LREF_/LNX_/REPAIR) + parametreler: [procedurler/README.md](procedurler/README.md).
+
+> Bu üç bölüm, bir Logo veritabanının şema metadata'sından üretilmiştir; yalnız kolon/parametre yapısı,
+> **satır verisi içermez**. Firmaya-özel view/proc/tablolar (MB_/MO_/AG_ vb.) kapsam dışıdır.
 
 ### 🧩 Örnek SQL (`sql/`)
 Placeholder'lı, salt-okunur şablonlar — bkz. [sql/README.md](sql/README.md).

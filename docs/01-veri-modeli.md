@@ -62,4 +62,4 @@ SELECT DATE_, AMOUNT, TRCODE FROM LG_001_02_STLINE WITH (NOLOCK)   -- ör. sonra
   - `STLINE.CLIENTREF` → `CLCARD.LOGICALREF` (hangi cari)
 
 Detaylı tablo/kolon listesi için [02-cekirdek-tablolar.md](02-cekirdek-tablolar.md) ve
-[`tablo-aciklamalari/`](../tablo-aciklamalari/) klasörüne bakın.
+[`tablolar/`](../tablolar/) klasörüne bakın.
